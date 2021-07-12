@@ -6,7 +6,7 @@ You can check your own Gemfile.locks against this database by using [bundler-aud
 
 ## Support Ruby security!
 
-Do you know about a vulnerability that isn't listed in this database? Open an issue, submit a PR, or [use this form](https://rubysec.com/advisories/new) which will email the maintainers.
+Do you know about a vulnerability that isn't listed in this database? Open an issue or submit a PR.
 
 ## Directory Structure
 
@@ -61,6 +61,7 @@ Each advisory file contains the advisory information in [YAML] format:
 ### Schema
 
 * `gem` \[String\] (required): Name of the affected gem.
+* `library` \[String\] (optional): Name of the ruby library which the affected gem belongs to.
 * `framework` \[String\] (optional): Name of the framework which the affected
   gem belongs to.
 * `platform` \[String\] (optional): If this vulnerability is platform-specific, name of platform this vulnerability affects (e.g. jruby)
@@ -78,6 +79,7 @@ Each advisory file contains the advisory information in [YAML] format:
 * `patched_versions` \[Array\<String\>\] (optional): The version requirements for the
   patched versions of the Ruby library.
 * `related` \[Hash\<Array\<String\>\>\] (optional): Sometimes an advisory references many urls and other identifiers. Supported keys: `cve`, `ghsa`, `osvdb`, and `url`
+* `notes` \[String\] (optional): Internal notes regarding the vulnerability's inclusion in this database.
 
 ### Tests
 Prior to submitting a pull request, run the tests:
