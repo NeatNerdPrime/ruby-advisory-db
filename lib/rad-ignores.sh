@@ -195,6 +195,7 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # GHSA-9j7m-jqrm-mcj3 - CVE-2019-5624 - Rapid7 Metasploit Framework (tool)
 # GHSA-rm8f-p7g6-p8p4 - CVE-2009-4079 - (redmine, not ruby lang)
 # GHSA-68hg-cfx6-pvhh - CVE-2009-4078 - (redmine, not ruby lang)
+# GHSA-xg2h-5xr2-29jw - CVE-2026-59861 - (Microsoft/Kiota Ruby code generator)
 # #......................................................................
 # # NOT RUBY
 # GHSA-qgq2-pf5j-2fvq JAVASCRIPT/Prototype.js
