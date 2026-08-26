@@ -183,10 +183,10 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # GHSA-2jww-8ppq-f5qp - CVE-2019-12575 (mentions ruby but not ruby lang)
 # #......................................................................
 # # DISPUTED
-# GHSA-c2xw-j3rw-89x2 DISPUTED - SQL injection vul
-# GHSA-rjh4-8mqr-rvr8 DISPUTED - SQL injection vul
-# GHSA-vqpc-h5g8-fhrw DISPUTED - SQL injection vul
-# GHSA-4w6g-25w8-c8vc DISPUTED - SQL injection vul
+# GHSA-c2xw-j3rw-89x2 DISPUTED - SQL injection vul (Rails)
+# GHSA-rjh4-8mqr-rvr8 DISPUTED - SQL injection vul (Rails)
+# GHSA-vqpc-h5g8-fhrw DISPUTED - SQL injection vul (Rails)
+# GHSA-4w6g-25w8-c8vc DISPUTED - SQL injection vul (Rails)
 # GHSA-6qq6-x75v-fgg7 DISPUTED - openssl extension - CVE-2014-2734
 # GHSA-jwh5-q83f-2jjc DISPUTED - WEBrick gem 1.4.2
 # #......................................................................
@@ -204,9 +204,9 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # GHSA-h4xp-827w-ffh7 - CVE-2016-4864 (ho2, not mruby lang)
 # GHSA-jmhx-fqfh-838h NOT-RUBY
 # CVE-2022-45301      NOT-RUBY
-# GHSA-6938-wq9x-9rgg - CVE-2012-1241
-# GHSA-6f39-fvhf-c6qr - CVE-2017-11465 (REJECTED)
-# GHSA-rc82-v3mm-rhj2 - CVE-2011-3624.yml (REJECTED)
+# GHSA-6938-wq9x-9rgg - CVE-2012-1241 (ActiveScriptRuby)
+# GHSA-6f39-fvhf-c6qr - CVE-2017-11465 (REJECTED) (Ruby)
+# GHSA-rc82-v3mm-rhj2 - CVE-2011-3624.yml (REJECTED) (Ruby)
 # GHSA-94xx-gq3f-6gw4 - CVE-2026-1097.yml (not ruby)
 # #......................................................................
 # # Redhat
@@ -214,4 +214,9 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # GHSA-gphm-f2cq-m9pv (red hat #2)
 # GHSA-w5v4-7h7x-xfvq (red hat #1)
 # GHSA-h459-7mrx-8pvc - CVE-2014-0241 (Red hat plugin, not ruby lang)
-# GHSA-f29j-vf7h-f9g9 - CVE-2013-1945
+# GHSA-f29j-vf7h-f9g9 - CVE-2013-1945 (Red hat/Ruby 1.9.3)
+
+# 8/26/2026
+# GHSA-9jfq-54vc-9rr2 - CVE-2022-3874 (foreman/Withdrawn)
+# GHSA-wv67-q8rr-grjp - CVE-2019-5428 (jquery/jquery-rails/Duplicate)
+# GHSA-257q-pv89-v3xv - CVE-2020-23064 (jquery/jquery-rails/Duplicate)
