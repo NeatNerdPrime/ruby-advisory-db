@@ -224,3 +224,4 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # 8/28/2026
 # GHSA-mqcp-p2hv-vw6x - CVE-2025-54314 (thor/Withdrawn)
 # GHSA-9jfq-54vc-9rr2 - CVE-2022-3874  (foreman/Withdrawn)
+# GHSA-fjq9-7vv8-9wjc - CVE-2019-16254 (ruby/Disputed)
