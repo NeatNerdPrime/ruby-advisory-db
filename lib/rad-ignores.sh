@@ -220,3 +220,7 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # GHSA-9jfq-54vc-9rr2 - CVE-2022-3874 (foreman/Withdrawn)
 # GHSA-wv67-q8rr-grjp - CVE-2019-5428 (jquery/jquery-rails/Duplicate)
 # GHSA-257q-pv89-v3xv - CVE-2020-23064 (jquery/jquery-rails/Duplicate)
+
+# 8/28/2026
+# GHSA-mqcp-p2hv-vw6x - CVE-2025-54314 (thor/Withdrawn)
+# GHSA-9jfq-54vc-9rr2 - CVE-2022-3874  (foreman/Withdrawn)
