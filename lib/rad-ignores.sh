@@ -291,3 +291,10 @@ rm -f gems/mail/CVE-2026-63435.yml
 rm -f gems/nokogiri/CVE-2026-79770.yml
 rm -f gems/nokogiri/CVE-2026-79771.yml
 rm -f gems/nokogiri/CVE-2026-79772.yml
+
+# 9/4/2026: More duplicates and withdrawns
+# nokogiri  | https://github.com/advisories/GHSA-5jhf-fpp7-v2pv (duplicate)
+# nokogiri  | https://github.com/advisories/GHSA-xqqh-3w52-q8p7 (duplicate)
+# nokogiri  | https://github.com/advisories/GHSA-rh9x-7xjc-vwx2 (duplicate)
+# paperclip | https://github.com/advisories/GHSA-phmw-pv3f-vvx7 (withdrawn)
+# sprockets | https://github.com/advisories/GHSA-r4x3-g983-9g48 (withdrawn)
