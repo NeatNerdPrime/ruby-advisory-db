@@ -285,3 +285,9 @@ rm -f gems/kobako/CVE-2026-55107.yml
 # safemode | https://github.com/advisories/GHSA-8474-rc7c-wrhp (withdrawn)
 # spree_auth_devise | https://github.com/advisories/GHSA-6mqr-q86q-6gwr (withdrawn)
 # web-console | https://github.com/advisories/GHSA-82x2-g7vr-39wq (withdrawn)
+
+# 9/4/2026: Use GHSA prefix over CVE.
+rm -f gems/mail/CVE-2026-63435.yml
+rm -f gems/nokogiri/CVE-2026-79770.yml
+rm -f gems/nokogiri/CVE-2026-79771.yml
+rm -f gems/nokogiri/CVE-2026-79772.yml
